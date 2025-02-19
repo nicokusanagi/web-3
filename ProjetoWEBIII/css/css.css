@@ -1,8 +1,39 @@
-.logo{width: 100px;height: auto;}
-h1 {font-family:fantasy;color: #ff6543;font-size: 30px;box-sizing: border-box;}
-body{background-color: #fff19e;}
-fieldset{height: 100px;border:3px solid #b5f4bc;}
-legend{color:#ff6543 ;}
-form input {display: flex;flex-direction: column;margin-bottom: 5px;height: 15px;text-align: center;}
-form input [type="submit"]{height: 100px;}
-  
+.logo{width: 100px;}
+h1 {font-family:cursive;
+    color: white;
+    font-size: 30px;
+    border: 3px;
+    display:inline-block;
+    padding: 5px;
+    border: 3px;}
+
+    body{background-image: url(../img/fundo.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+fieldset{
+    align-self:center;
+    height: 150px;
+    border:3px solid; 
+    width:50%;
+    background-color: rgba(240, 240, 240, 0.5); 
+    border-radius: 50px;
+    
+}
+legend{color:white ;font-family: fantasy;}
+    
+
+
+
+
+form input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 30px;
+    border-color: black;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+}
